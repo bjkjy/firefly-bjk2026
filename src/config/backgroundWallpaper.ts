@@ -45,6 +45,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			"assets/images/DesktopWallpaper/d4.avif",
 			"assets/images/DesktopWallpaper/d5.avif",
 			"assets/images/DesktopWallpaper/d6.avif",
+			"assets/images/DesktopWallpaper/d7.avif",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
@@ -53,8 +54,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			"assets/images/MobileWallpaper/m2.avif",
 			"assets/images/MobileWallpaper/m3.avif",
 			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
 		],
 	},
 	// Banner模式特有配置
@@ -71,17 +70,23 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "Light, Unfolding",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"From Southern Wood, I softly arrive.",
+				"In Crimson Cocoon, I Dream of Wings.",
+				"From Shattered Night, I Steal a Star.",
+				"Amidst Silent Frost, I Breathe a Flame.",
+				"Upon Ashen Ground, I Plant a Bloom.",
+				"From Fading Echo, I Weave a Song.",
+				"Through Broken Sky, I Trace a Rainbow.",
+				"In Hollow Dark, I Kindle Dawn.",
+				"From Lost Path, I Run Toward Light.",
+				"Between Two Shadows, I Choose the Sun.",
+				"In Final Sleep, I Wake to Fly.",
+				"From everything that broke me, I grew a garden."
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -95,16 +100,16 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				// 删除速度（毫秒）
 				deleteSpeed: 50,
 				// 完全显示后的暂停时间（毫秒）
-				pauseTime: 2000,
+				pauseTime: 3000,
 			},
 		},
 		// 图片来源
 		credit: {
 			enable: {
 				// 桌面端显示横幅图片来源文本
-				desktop: true,
+				desktop: false,
 				// 移动端显示横幅图片来源文本
-				mobile: true,
+				mobile: false,
 			},
 			text: {
 				// 桌面端要显示的来源文本
