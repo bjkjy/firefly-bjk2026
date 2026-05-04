@@ -1,8 +1,6 @@
 name = "firefly-bjk2026"
-compatibility_date = "2026-05-04" # 更为今日
+compatibility_date = "2026-05-04" # 用今天的日期
+main = "./dist/_worker.js"
 
-[assets]
-directory = "./dist"
-
-[vars]
-NODE_VERSION = "24"
+[site]
+bucket = "./dist"
